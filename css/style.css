@@ -71,7 +71,15 @@ img {
   min-height: 440px; */
 }
 
-.card-img-hover {
+.img-product-hover {
+  display: none;
+}
+
+.product-card:hover .card-img .img-product-hover {
+  display: block;
+}
+
+.product-card:hover .card-img .img-product {
   display: none;
 }
 
