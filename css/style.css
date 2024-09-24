@@ -120,13 +120,18 @@ img {
 
 .card-wishlist {
   padding: 2px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 50px;
 
   /* debug   */
   background-color: gainsboro;
   border: 2px dashed black;
   min-height: 50px;
+}
+
+.card-wishlist > .fa-heart {
+  width: 20px;
+  height: 20px;
 }
