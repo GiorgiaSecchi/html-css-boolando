@@ -59,7 +59,7 @@ img {
 
 .product-card .card-wishlist {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 0px;
 }
 
@@ -121,14 +121,20 @@ img {
 
 .card-wishlist {
   padding: 2px;
-  width: 50px;
+  width: 40px;
+  min-height: 40px;
   background-color: white;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
+  cursor: pointer;
+
   /* debug   */
-  border: 2px dashed black;
-  min-height: 50px;
+  /* border: 2px dashed black; */
+}
+
+.card-wishlist:hover {
+  color: red;
 }
