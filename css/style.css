@@ -40,18 +40,19 @@
 
 .product-card .card-discount {
   position: absolute;
-  bottom: 150px;
+  bottom: 100px;
 }
 
 .product-card .card-target {
   position: absolute;
-  bottom: 150px;
+  bottom: 100px;
   left: 45px;
 }
 
 .product-card .card-wishlist {
   position: absolute;
   top: 20px;
+  right: 0px;
 }
 
 /* CARD */
@@ -60,7 +61,7 @@
   /* debug   */
   background-color: lightsalmon;
   border: 2px dashed black;
-  min-height: 380px;
+  min-height: 440px;
 }
 
 .card-description {
@@ -69,7 +70,8 @@
   /* debug   */
   background-color: lightblue;
   border: 2px dashed black;
-  min-height: 70px;
+  min-height: 60px;
+  line-height: 15px;
 }
 
 .card-discount {
@@ -96,10 +98,13 @@
 
 .card-wishlist {
   padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
 
   /* debug   */
   background-color: gainsboro;
   border: 2px dashed black;
   min-height: 50px;
-  max-width: 50px;
 }
