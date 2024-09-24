@@ -44,7 +44,7 @@ img {
   min-height: 500px;
 
   /* debug */
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
 }
 
 .product-card .card-discount {
