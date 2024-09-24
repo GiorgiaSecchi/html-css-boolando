@@ -41,9 +41,10 @@ img {
 
   position: relative;
 
+  min-height: 500px;
+
   /* debug */
   background-color: dodgerblue;
-  min-height: 500px;
 }
 
 .product-card .card-discount {
@@ -54,7 +55,7 @@ img {
 .product-card .card-target {
   position: absolute;
   bottom: 90px;
-  left: 42px;
+  left: 41px;
 }
 
 .product-card .card-wishlist {
@@ -89,13 +90,37 @@ img {
   line-height: 15px;
 
   /* debug   */
-  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(243, 243, 243); */
   /* border: 2px dashed black;
   min-height: 60px; */
 }
 
-.card-discount {
+.price .price-discount,
+.price-original {
+  display: inline-block;
+  font-size: 0.7rem;
+}
+
+.price > .price-discount {
+  color: red;
+  font-weight: bold;
+}
+
+.price > .price-original {
+  color: black;
+  text-decoration-line: line-through;
+}
+
+.card-discount,
+.card-target {
   text-align: center;
+  padding: 4px 6px 4px 6px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.card-discount {
   background-color: red;
 
   /* debug   */
@@ -104,19 +129,11 @@ img {
 }
 
 .card-target {
-  text-align: center;
   background-color: green;
 
   /* debug   */
   /* border: 2px dashed black;
   min-height: 10px; */
-}
-
-.card-discount,
-.card-target {
-  padding: 3px 6px 3px 6px;
-  font-size: 0.8rem;
-  color: white;
 }
 
 .card-wishlist {
@@ -137,4 +154,18 @@ img {
 
 .card-wishlist:hover .heart {
   color: red;
+}
+
+/* TEXT */
+
+.card-description > p h3 {
+  color: black;
+}
+
+.card-description > h3 {
+  font-size: 0.8rem;
+}
+
+.card-description > p {
+  font-size: 0.7rem;
 }
