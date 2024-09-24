@@ -40,7 +40,18 @@
 
 .product-card .card-discount {
   position: absolute;
-  bottom: 200px;
+  bottom: 150px;
+}
+
+.product-card .card-target {
+  position: absolute;
+  bottom: 150px;
+  left: 45px;
+}
+
+.product-card .card-wishlist {
+  position: absolute;
+  top: 20px;
 }
 
 /* CARD */
