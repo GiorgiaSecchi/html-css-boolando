@@ -132,8 +132,3 @@ img {
   border: 2px dashed black;
   min-height: 50px;
 }
-
-.card-wishlist > .fa-heart {
-  width: 20px;
-  height: 20px;
-}
