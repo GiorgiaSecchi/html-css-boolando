@@ -135,6 +135,6 @@ img {
   /* border: 2px dashed black; */
 }
 
-.card-wishlist:hover {
+.card-wishlist:hover .heart {
   color: red;
 }
