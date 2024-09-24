@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* UTILS */
@@ -120,13 +121,14 @@ img {
 
 .card-wishlist {
   padding: 2px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 50px;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /* debug   */
-  background-color: gainsboro;
   border: 2px dashed black;
   min-height: 50px;
 }
